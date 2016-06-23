@@ -12,7 +12,7 @@ import getpass
 user = getpass.getuser()
 path_sysrules = ""
 if os.name == "nt":
-	path_sysrules = "C:/Users/" + user + "/repo/ae/bundled-apps/system/content/"
+	path_sysrules = "C:/repo/ae/bundled-apps/system/content/"
 elif os.name == "posix":
 	path_sysrules = "/Users/" + user + "/repo/ae/bundled-apps/system/content/"
 else:
@@ -22,7 +22,7 @@ else:
 try:
 	dirs = [f for f in listdir(path_sysrules) if isfile(join(path_sysrules, f))]
 except:
-	print("Can't find directory.")
+	print("Can't find directory. In Windows, 'repo' should be in C:/. In Mac OS X, 'repo' should be in /Users/[username]/.")
 	exit()
 
 for file in dirs:

@@ -1,3 +1,3 @@
 # appian-sail-plugin
 
-Autocomplete for Appian SAIL in Sublime Text 3.
+Auto-complete for Appian SAIL in Sublime Text 3.

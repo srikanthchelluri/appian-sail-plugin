@@ -1,6 +1,6 @@
 # Srikanth Chelluri
 # June 2016
-# Appian SAIL internal functions Sublime Text 3 snippet generator
+# Appian SAIL internal functions (a!) Sublime Text 3 snippet generator
 # Note: use completions for generic functions 
 
 import os
@@ -8,7 +8,7 @@ from os import listdir
 from os.path import isfile, join
 import getpass
 
-print "Running Sublime Text 3 snippet generation for Appian SAIL..."
+print "Running Sublime Text 3 snippet generation (a!) for Appian SAIL..."
 
 # Automated for Mac or PC
 user = getpass.getuser()

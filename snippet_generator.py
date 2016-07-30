@@ -88,7 +88,7 @@ for file in dirs:
 				arg_count += 1
 			snippet += ")"
 		tab_trigger = function
-		description = "Appian Internal"
+		description = "Internal (system rule)"
 
 		snippet_count += 1
 		output_file.write("<snippet>\n")

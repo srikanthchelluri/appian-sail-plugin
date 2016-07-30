@@ -3,6 +3,7 @@
 	[
 		"xml"
 	],
+	
 	"auto_complete_triggers": 
 	[ 
 		{"selector": "text.html", "characters": "<"}, 

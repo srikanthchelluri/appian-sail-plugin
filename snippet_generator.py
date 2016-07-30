@@ -98,4 +98,4 @@ for file in dirs:
 		output_file.write("\t<description>" + description + "</description>\n")
 		output_file.write("</snippet>\n")
 
-print str(snippet_count) + " rules processed. Exiting."
+print str(snippet_count) + " system rules processed. Exiting."

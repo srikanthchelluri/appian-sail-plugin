@@ -6,7 +6,6 @@
 	
 	"auto_complete_triggers": 
 	[ 
-		{"selector": "text.html", "characters": "<"}, 
 		{"selector": "source.sail", "characters": "!"} 
 	]
 }

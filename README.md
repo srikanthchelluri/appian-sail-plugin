@@ -1,6 +1,8 @@
+**This project isn't actively maintained. It's intended for engineers at Appian and is likely outdated with some of the other tools engineers have available. I'm leaving this code up in case anyone finds this useful though.**
+
 # Auto-complete for Appian SAIL
 
-This repository contains source code and files to add auto-complete functionality for Appian SAIL in Sublime Text 3. It has a few parts and requires (just a little) setup. Srikanth won the *Best Process/Productivity* Indie Time award in July for this project.
+This repository contains source code and files to add auto-complete functionality for Appian SAIL in Sublime Text 3. It has a few parts and requires (just a little) setup. This won the *Best Process/Productivity* Indie Time award in July.
 
 ### Setup
 1. Make sure you have SAIL syntax highlighting for Sublime Text 3 already (see Home for `sail.tmLanguage`).
